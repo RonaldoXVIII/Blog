@@ -1,0 +1,55 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif   
+}
+
+
+.article {
+    background-color: skyblue;
+    margin: 20px;
+    padding: 10px;
+    height: 100px;
+}
+
+
+.newsletter {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 20px;
+    width: 700px;
+    height: 250px;
+    background: url(https://img.freepik.com/premium-vector/top-view-modern-business-office-workspace-background-flat-illustration-office-desk-with-laptop-digital-devices-notepad_401949-184.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699574400&semt=ais);
+    border: 5px solid purple;
+    background-size: cover;
+}
+
+#enviar-data {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+.caja {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+.position-button {
+    font-size: 30px !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: aliceblue;
+    cursor: pointer;
+}
